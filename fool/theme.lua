@@ -77,6 +77,22 @@ theme.menu_submenu_icon = sharedthemes .. "/default/submenu.png"
 theme.menu_height   = 15
 theme.menu_width    = 100
 
-theme.awesome_icon = sharedicons .. "/awesome16.png"
+-- You can use your own layout icons like this:
+theme.layout_fairh      = themedir .. "/layouts/fairhw.png"
+theme.layout_fairv      = themedir .. "/layouts/fairvw.png"
+theme.layout_floating   = themedir .. "/layouts/floatingw.png"
+theme.layout_magnifier  = themedir .. "/layouts/magnifierw.png"
+theme.layout_max        = themedir .. "/layouts/maxw.png"
+theme.layout_fullscreen = themedir .. "/layouts/fullscreenw.png"
+theme.layout_tilebottom = themedir .. "/layouts/tilebottomw.png"
+theme.layout_tileleft   = themedir .. "/layouts/tileleftw.png"
+theme.layout_tile       = themedir .. "/layouts/tilew.png"
+theme.layout_tiletop    = themedir .. "/layouts/tiletopw.png"
+theme.layout_spiral     = themedir .. "/layouts/spiralw.png"
+theme.layout_dwindle    = themedir .. "/layouts/dwindlew.png"
+
+
+
+theme.awesome_icon      = sharedicons  .. "/awesome16.png"
 
 return theme
